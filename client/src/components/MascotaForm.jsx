@@ -71,7 +71,7 @@ const MascotaForm = () => {
         if (response.status === 200){
             Swal.fire({
                 icon: 'success',
-                title: 'EXITO',
+                title: 'ÉXITO',
                 text: `Se ha ${id ? "editado" : "agregado"} a ${response.data.name} perfectamente!`,
             }).then((result) => {
                 if (result.isConfirmed) {
