@@ -1,0 +1,47 @@
+.new-name-container{
+    border: solid black;
+    width: 100%;
+}
+#btn-submit{
+    width: 200px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    background-color: #2b78e4;
+    border: 3px solid black;
+    box-shadow: 3px 2px black;
+}
+.home-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.pets-container{
+    display: flex;
+    flex-direction: row;
+}
+.pets-name, .pets-skills{
+    background-color: #dddddd;
+    padding: 15px;
+    flex: 1;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+}
+.fields label{
+    margin-bottom: 15px;
+}
+.fields input{
+    margin-bottom: 20px;
+    border: solid black;
+    padding-left: 15px;
+}
+.input-question{
+    height: 150px;
+    width: 500px;
+}
+.required label::after {
+    content: " *";
+    color: red;
+}
