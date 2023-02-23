@@ -99,7 +99,7 @@ const MascotaForm = () => {
                     className="input-name"
                     type="name"
                     value={name}
-                    onChange={(e) => setName(e.target.value.trim())}
+                    onChange={(e) => setName(e.target.value)}
                 ></input>
                 </div>
                 <div className="fields required">
@@ -108,7 +108,7 @@ const MascotaForm = () => {
                     className="input-name"
                     type="type"
                     value={type}
-                    onChange={(e) => setType(e.target.value.trim())}
+                    onChange={(e) => setType(e.target.value)}
                 ></input>
                 </div>
                 <div className="fields required">
@@ -117,7 +117,7 @@ const MascotaForm = () => {
                     className="input-name"
                     type="description"
                     value={description}
-                    onChange={(e) => setDescription(e.target.value.trim())}
+                    onChange={(e) => setDescription(e.target.value)}
                 ></input>
                 </div>
 
@@ -133,7 +133,7 @@ const MascotaForm = () => {
                 <input
                     type="skills"
                     value={skill1}
-                    onChange={(e) => setSkill1(e.target.value.trim())}
+                    onChange={(e) => setSkill1(e.target.value)}
                 ></input>
                 </div>
                 <div className="fields">
@@ -141,7 +141,7 @@ const MascotaForm = () => {
                 <input
                     type="skills"
                     value={skill2}
-                    onChange={(e) => setSkill2(e.target.value.trim())}
+                    onChange={(e) => setSkill2(e.target.value)}
                 ></input>
                 </div>
                 <div className="fields">
@@ -149,7 +149,7 @@ const MascotaForm = () => {
                 <input
                     type="skills"
                     value={skill3}
-                    onChange={(e) => setSkill3(e.target.value.trim())}
+                    onChange={(e) => setSkill3(e.target.value)}
                 ></input>
                 </div>
             </div>
